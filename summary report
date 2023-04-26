@@ -1,0 +1,118 @@
+summary.py --design fsmVHDL --drc
+[INFO]: COUNT: 0
+[INFO]: Should be divided by 3 or 4
+
+
+
+summary.py --design fsmVHDL --summary
+       tritonRoute_violations :                    0
+              Short_violations :                    0
+             MetSpc_violations :                    0
+            OffGrid_violations :                    0
+            MinHole_violations :                    0
+              Other_violations :                    0
+              Magic_violations :                    0
+            antenna_violations :                    0
+              lvs_total_errors :                    0
+              cvc_total_errors :                   -1
+            klayout_violations :                   -1
+area 40000 um^2
+flow status: flow completed
+
+
+
+
+summary.py --design fsmVHDL --full-summary
+                   design_name :              aluVHDL
+                        config : RUN_2023.04.24_19.45.21
+                   flow_status :       flow completed
+                 total_runtime :           0h3m54s0ms
+                routed_runtime :            0h3m8s0ms
+         (Cell/mm^2)/Core_Util :                 -2.0
+                  DIEAREA_mm^2 :                 0.04
+                  CellPer_mm^2 :                   -1
+                   OpenDP_Util :                20.19
+          Peak_Memory_Usage_MB :               568.54
+                    cell_count :                   -1
+        tritonRoute_violations :                    0
+              Short_violations :                    0
+             MetSpc_violations :                    0
+            OffGrid_violations :                    0
+            MinHole_violations :                    0
+              Other_violations :                    0
+              Magic_violations :                    0
+            antenna_violations :                    0
+              lvs_total_errors :                    0
+              cvc_total_errors :                   -1
+            klayout_violations :                   -1
+                   wire_length :                23029
+                          vias :                 5830
+                           wns :                -0.26
+                        pl_wns :                -0.03
+                 optimized_wns :                -0.17
+                 fastroute_wns :                 -0.2
+                      spef_wns :                   -1
+                           tns :                -0.26
+                        pl_tns :                -0.03
+                 optimized_tns :                -0.17
+                 fastroute_tns :                 -0.2
+                      spef_tns :                   -1
+                          HPWL :           16935504.0
+            routing_layer1_pct :                  0.0
+            routing_layer2_pct :                 16.5
+            routing_layer3_pct :                17.62
+            routing_layer4_pct :                  3.9
+            routing_layer5_pct :                 2.64
+            routing_layer6_pct :                  0.0
+                   wires_count :                 6345
+                     wire_bits :                 6541
+            public_wires_count :                   10
+              public_wire_bits :                  206
+                memories_count :                    0
+                   memory_bits :                    0
+               processes_count :                    0
+                 cells_pre_abc :                 6343
+                           AND :                  124
+                           DFF :                    0
+                          NAND :                   81
+                           NOR :                  443
+                            OR :                  548
+                           XOR :                  946
+                          XNOR :                  192
+                           MUX :                  882
+                        inputs :                   20
+                       outputs :                    8
+                         level :                   64
+                       EndCaps :                  130
+                      TapCells :                  469
+                        Diodes :                    0
+          Total_Physical_Cells :                  599
+                 CoreArea_um^2 :           33680.2304
+     power_slowest_internal_uW :             0.000116
+    power_slowest_switching_uW :             0.000165
+      power_slowest_leakage_uW :              3.4e-06
+     power_typical_internal_uW :             0.000141
+    power_typical_switching_uW :              0.00021
+      power_typical_leakage_uW :             7.18e-09
+     power_fastest_internal_uW :             0.000157
+    power_fastest_switching_uW :             0.000248
+      power_fastest_leakage_uW :             9.81e-09
+              critical_path_ns :                 11.2
+        suggested_clock_period :                 11.0
+     suggested_clock_frequency :     90.9090909090909
+                  CLOCK_PERIOD :                 10.0
+                SYNTH_STRATEGY :               AREA 3
+              SYNTH_MAX_FANOUT :                    5
+                  FP_CORE_UTIL :                   50
+               FP_ASPECT_RATIO :                    1
+                 FP_PDN_VPITCH :                153.6
+                 FP_PDN_HPITCH :               153.18
+             PL_TARGET_DENSITY :                 0.55
+             GLB_RT_ADJUSTMENT :                  0.3
+              STD_CELL_LIBRARY :      sky130_fd_sc_hd
+                      CELL_PAD :                    4
+      DIODE_INSERTION_STRATEGY :                    3
+
+summary.py --design fsmVHDL --gds
+
+
